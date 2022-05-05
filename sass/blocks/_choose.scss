@@ -1,0 +1,144 @@
+/* Choose */
+
+.choose {
+    position: relative;
+    margin-bottom: 80px;
+    padding: 20px;
+    
+}
+
+.choose__wrap {
+    background-image:  url("../images/choose-back.png");
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #C99B67; 
+}
+
+.choose__inner {
+    width: 1400px;
+    height: 703px;
+    margin: 0;
+    padding: 0;
+    /* padding-bottom: 500px; */
+    // background-image:  url("../images/choose-back.png");
+    // background-size:  100%;
+    // background-repeat: no-repeat;
+    // background-blend-mode: overlay;
+    // background-color: #C99B67;
+
+    &::before {
+        position: absolute;
+        top: calc(50% - 165px) ;
+        left: calc(50% - 690px) ;
+        display: block;
+        background-image: url("../images/choose-back-icon.png") ;
+        background-repeat: no-repeat;
+        width: 140px;
+        height: 144px;
+        z-index: 2;
+        content: "";
+    }
+    
+}
+
+
+
+.choose__title {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    
+    
+    text-align: center;
+    font-variant: small-caps;
+    
+    color: #FFFFFF;
+}
+
+.choose__div {
+    width: 581px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.choose__subtitle {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.choose__list {
+    position: absolute;
+    bottom: -140px;
+    display: flex;
+    margin: 0;
+    
+    padding: 0;
+    
+    list-style-type: none;
+}
+
+.choose__item {
+    width: 433px;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    
+}
+
+.choose__item:nth-child(1) {
+    margin-left: 30px;
+}
+
+.choose__item:nth-child(3) {
+    margin-right: 31px;
+}
+
+.choose__pic {
+    margin-bottom: 28px;
+}
+
+.choose__strong {
+    margin: 0;
+    
+    margin-bottom: 10px;
+    padding: 0;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-variant: small-caps;
+    
+    color: #333333;
+}
+
+.choose__text {
+    margin: 0;
+    
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    
+    
+    
+    color: #333333;
+}
+
+/* Choose tugadi */

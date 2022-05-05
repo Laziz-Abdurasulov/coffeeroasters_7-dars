@@ -1,0 +1,70 @@
+.about-choose {
+    
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    padding-top: 160px;
+    
+}
+
+.about-choose__wrap {
+    
+    background-image:  url("../images/choose-back.png");
+    background-size:  100%;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #C99B67; 
+}
+
+.inner {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    // padding-left: 143px;
+}
+
+.inner__info {
+    width: 639px;
+    margin: 0;
+    margin-top: 100px;
+    margin-right: 38px;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+.inner__title {
+    margin: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    
+}
+
+.inner__subtitle {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+    
+    
+    
+    
+
+.inner__img {
+    position: absolute;
+    top: -80px;
+    right: -30px;
+}

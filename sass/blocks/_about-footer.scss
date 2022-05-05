@@ -1,0 +1,58 @@
+/* Footer */
+
+.about-footer {
+    margin: 0;
+    padding: 0;
+    padding: 65px 50px;
+    background-image: url("../images/Rectangle-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-blend-mode: overlay;
+    background-color: #F3D7B7;
+}
+
+.about-footer__inner {
+    display: flex;
+    align-items: center;
+}
+
+.about-footer__menu {
+    margin-right: 331px;
+    margin-left: 246px;
+}
+
+.about-footer__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.about-footer__item {
+    margin: 0;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.about-footer__item:nth-child(1) {
+    margin-left: 0;
+}
+
+.about-footer__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    
+    
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #333333;
+}
+
+.about-footer__icon {
+    margin-right: 30px;
+}
